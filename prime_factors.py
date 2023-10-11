@@ -6,8 +6,6 @@ def prime_factors_of(n: int) -> list[int]:
             factors.append(prime)
             n /= prime
         prime += 1
-    if n > 1:
-        factors.append(n)
     return factors
 
 
